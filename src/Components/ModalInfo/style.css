@@ -1,0 +1,166 @@
+.showModal{
+    position: fixed;
+    top:50px;
+    left:0;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-color: gray;
+    
+    z-index: 2;
+    visibility: visible;
+    transition : visibility 0s, opacity 0.6s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hideModal{
+    visibility: hidden;
+    display: none;
+}
+
+.image-background{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    width: 100%;
+    height: 100%;
+}
+.container-modal{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+.container-modal__poster{
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 30%;
+    height: 100%;
+    
+}
+
+.container-modal__poster img{
+    width: 90%;
+    height: 90%;
+    z-index: 4;
+}
+
+.title-movie{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+.description-movie{
+    color: white;
+    width:70% ;
+    height: 100%;
+    margin: 20px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-movie h2{
+    font-size: 2.5rem;
+}
+
+.description{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description_movie{
+    margin: 20px 40px 20px 0px;
+}
+
+.description_movie h4{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.icon-quit{
+    color: white;
+    position: absolute;
+    top:30;
+    right: 20px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.icons-movie{
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.icons-movie___favorites{
+    display: flex;
+}
+
+.icons-movie__nowatched{
+    display: flex;
+    margin-left: 10px;
+}
+
+.options-bottom{
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+
+.class-language{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    bottom:0;
+    right: 100px;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+
+.class-language__options{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.class-language__size-icon{
+    font-size: 24px
+    
+}
+
+.class_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.font-icon{
+    font-size: 10px;
+}
+
+#icon-menu{
+    font-size: 10px;
+}

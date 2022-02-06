@@ -1,0 +1,40 @@
+.main_button{
+    background-color: #1F375F;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+.text-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text-style p{
+    font-size: 1.3rem!important;
+}
+
+.icons-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-style__playcircule{
+    font-size: 20px;
+}
+
+.icons-style__dropdown{
+    font-size: 10px;
+}
+
+.center-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

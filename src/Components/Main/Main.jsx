@@ -8,13 +8,16 @@ const Main = ({movie_db}) => {
     const [modalInfo, setModalInfo] = useState([]);
   return (
     <div >
-    
+    <ModalInfo modalState={modalState} modalInfo={modalInfo} setModalState={setModalState} > </ModalInfo>
     <main className="card-container">
         
 
         {
             movie_db.map(item=>(
-                <article  className='card-item-movie'>
+                <article onClick={()=>{
+                    setModalState(true);
+                    setModalInfo([item.backdrop_path, item.poster_path, item.original_title, item.overview])
+                }} className='card-item-movie'>
                 <div className='card-item-movie-img'>
                 <LazyLoadImage
                     effect='blur'
