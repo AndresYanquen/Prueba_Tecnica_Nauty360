@@ -1,0 +1,59 @@
+header{
+    width: 100%;
+    height: 50px;
+    color: #636467;
+    font-weight: 600;
+    font-size: 1.2rem ;
+    display: flex;
+    justify-content: space-between  ;
+    background-color: #17181B;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+
+}
+
+.list-items{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.list-items li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 90%;
+}
+
+
+.list-items li:hover{
+    background-color: #1e1e20;
+
+}
+
+.list-items li a{
+    color:#636467 ;
+}
+
+.list-icons {
+    color: #636467;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.list-icons li{
+    width: 30px;
+    
+    
+}
+
+.list-icons li a{
+    color: #636467  ;
+}
+
